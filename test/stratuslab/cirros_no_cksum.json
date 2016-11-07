@@ -1,0 +1,142 @@
+{ 
+  "http://mp.stratuslab.eu/#CIRROS" : { 
+    "http://purl.org/dc/terms/type" : [ { 
+      "type" : "literal" ,
+      "value" : "base"
+    }
+     ] ,
+    "http://purl.org/dc/terms/identifier" : [ { 
+      "type" : "literal" ,
+      "value" : "CIRROS"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slreq#endorsement" : [ { 
+      "type" : "bnode" ,
+      "value" : "_:-4f8ea32:14e539b3d2a:-7ff4"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slterms#os" : [ { 
+      "type" : "literal" ,
+      "value" : "cirros"
+    }
+     ] ,
+    "http://purl.org/dc/terms/valid" : [ { 
+      "type" : "literal" ,
+      "value" : "2020-12-31T00:00:00Z"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slreq#checksum" : [ { 
+      "type" : "bnode" ,
+      "value" : "_:-4f8ea32:14e539b3d2a:-7ff8"
+    }
+    , { 
+      "type" : "bnode" ,
+      "value" : "_:-4f8ea32:14e539b3d2a:-7ff7"
+    }
+    , { 
+      "type" : "bnode" ,
+      "value" : "_:-4f8ea32:14e539b3d2a:-7ff6"
+    }
+    , { 
+      "type" : "bnode" ,
+      "value" : "_:-4f8ea32:14e539b3d2a:-7ff5"
+    }
+     ] ,
+    "http://purl.org/dc/terms/created" : [ { 
+      "type" : "literal" ,
+      "value" : "2015-07-21T08:33:23Z"
+    }
+     ] ,
+    "http://purl.org/dc/terms/creator" : [ { 
+      "type" : "literal" ,
+      "value" : "Vincent Legoll"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slterms#location" : [ { 
+      "type" : "literal" ,
+      "value" : "http://download.cirros-cloud.net/0.3.4/cirros-0.3.4-i386-disk.img"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slterms#kind" : [ { 
+      "type" : "literal" ,
+      "value" : "machine"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slterms#hypervisor" : [ { 
+      "type" : "literal" ,
+      "value" : "kvm"
+    }
+     ] ,
+    "http://purl.org/dc/terms/format" : [ { 
+      "type" : "literal" ,
+      "value" : "raw"
+    }
+     ] ,
+    "http://purl.org/dc/terms/compression" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slreq#bytes" : [ { 
+      "type" : "literal" ,
+      "value" : "12506112"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slterms#os-version" : [ { 
+      "type" : "literal" ,
+      "value" : "0.3.4"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slterms#os-arch" : [ { 
+      "type" : "literal" ,
+      "value" : "i386"
+    }
+     ] ,
+    "http://purl.org/dc/terms/publisher" : [ { 
+      "type" : "literal" ,
+      "value" : "IdGC"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slterms#version" : [ { 
+      "type" : "literal" ,
+      "value" : "0.1"
+    }
+     ] ,
+    "http://purl.org/dc/terms/description" : [ { 
+      "type" : "literal" ,
+      "value" : "test image for glance import."
+    }
+     ]
+  }
+   ,
+  "_:-4f8ea32:14e539b3d2a:-7ff3" : { 
+    "http://mp.stratuslab.eu/slreq#email" : [ { 
+      "type" : "literal" ,
+      "value" : "vincent.legoll@idgrilles.fr"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slreq#issuer" : [ { 
+      "type" : "literal" ,
+      "value" : "None"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slreq#subject" : [ { 
+      "type" : "literal" ,
+      "value" : "None"
+    }
+     ]
+  }
+   ,
+  "_:-4f8ea32:14e539b3d2a:-7ff4" : { 
+    "http://purl.org/dc/terms/created" : [ { 
+      "type" : "literal" ,
+      "value" : "2012-09-13T13:13:38Z"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slreq#endorser" : [ { 
+      "type" : "bnode" ,
+      "value" : "_:-4f8ea32:14e539b3d2a:-7ff3"
+    }
+     ]
+  }
+}

@@ -1,0 +1,571 @@
+MIME-Version: 1.0
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg=sha1; boundary="----5750AB10814F5DC0A41A792732EF8FA8"
+
+This is an S/MIME signed message
+
+------5750AB10814F5DC0A41A792732EF8FA8
+{
+   "hv:imagelist" : {
+      "dc:date:created" : "2013-10-13T21:05:54Z",
+      "dc:date:expires" : "2014-04-16T00:00:00Z",
+      "dc:description" : "Endorsed list of CernVM Images",
+      "dc:identifier" : "e55c1afe-0a62-4d31-a8d7-fb8c825f92a2",
+      "dc:source" : "cernvm.cern.ch",
+      "dc:title" : "CERN Virtual Machine",
+      "hv:endorser" : {
+         "hv:x509" : {
+            "dc:creator" : "Predrag Buncic",
+            "hv:ca" : "/DC=ch/DC=cern/CN=CERN Trusted Certification Authority",
+            "hv:dn" : "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=buncic/CN=379010/CN=Predrag Buncic",
+            "hv:email" : "Predrag.Buncic@cern.ch"
+         }
+      },
+      "hv:images" : [
+         {
+            "hv:image" : {
+               "dc:description" : "This is CernVM image built on 2013-10-13 18:07:18 from group-cernvm-batch=cernvm.cern.ch@cern:cernvm-2/2.7.2-1-2",
+               "dc:identifier" : "623b0bc7-abc2-4961-8700-53e358772a96",
+               "dc:title" : "CernVM Batch Node (QEMU,KVM)",
+               "hv:hypervisor" : "QEMU,KVM",
+               "hv:size" : 404994202,
+               "hv:uri" : "https://cernvm.cern.ch/releases/25/cernvm-batch-node-2.7.2-1-2-x86_64.hdd.gz",
+               "hv:version" : "2.7.2-1-2",
+               "sl:arch" : "x86_64",
+               "sl:checksum:sha512" : "4083adb6a438dedfe71668f3a8095f5860c9d5bdc21a56903a23bc254fd39b16452c5ce2f5100c93b1e96f652cc54a9636bacfe0eeb9365f8d5795c5aa43633c",
+               "sl:comments" : "Batch Node",
+               "sl:os" : "Linux",
+               "sl:osversion" : "SL 5.5"
+            }
+         },
+         {
+            "hv:image" : {
+               "dc:description" : "This is CernVM image built on 2013-10-13 18:07:04 from group-head-node=cernvm.cern.ch@cern:cernvm-2/2.7.2-1-2",
+               "dc:identifier" : "ff01738d-be09-4be8-a3c7-708f1b7c7319",
+               "dc:title" : "CernVM Head Node (QEMU,KVM)",
+               "hv:hypervisor" : "QEMU,KVM",
+               "hv:size" : 350756480,
+               "hv:uri" : "https://cernvm.cern.ch/releases/25/cernvm-head-node-2.7.2-1-2-x86.hdd.gz",
+               "hv:version" : "2.7.2-1-2",
+               "sl:arch" : "x86",
+               "sl:checksum:sha512" : "295aa3e4ee8a286c4c677ad47e951ca89e0c3376ab2f845c76ebce2199ad7734e52508c5cbb0469e4b17046ae661f23582195c5448bfadac9358c5043337d9b9",
+               "sl:comments" : "Head Node",
+               "sl:os" : "Linux",
+               "sl:osversion" : "SL 5.5"
+            }
+         },
+         {
+            "hv:image" : {
+               "dc:description" : "This is CernVM image built on 2013-10-13 18:07:03 from group-cernvm-appliance=cernvm.cern.ch@cern:cernvm-2/2.7.2-1-2",
+               "dc:identifier" : "3956af2d-d0f7-433b-9ec2-69abc3dafa35",
+               "dc:title" : "CernVM Basic (QEMU,KVM)",
+               "hv:hypervisor" : "QEMU,KVM",
+               "hv:size" : 319067208,
+               "hv:uri" : "https://cernvm.cern.ch/releases/25/cernvm-basic-2.7.2-1-2-x86_64.hdd.gz",
+               "hv:version" : "2.7.2-1-2",
+               "sl:arch" : "x86_64",
+               "sl:checksum:sha512" : "18a6ef47628ceb4b4e7b401d4216389c31294089b5a806512563c7e31c45dc0c7452e0931cf3aeefca8c4d99a71236c61cc78fd187ef21a58c682294fc372594",
+               "sl:comments" : "Basic",
+               "sl:os" : "Linux",
+               "sl:osversion" : "SL 5.5"
+            }
+         },
+         {
+            "hv:image" : {
+               "dc:description" : "This is CernVM image built on 2013-10-13 18:06:43 from group-cernvm-batch=cernvm.cern.ch@cern:cernvm-2/2.7.2-1-2",
+               "dc:identifier" : "b0d1c7a2-3d0d-46b1-9f1c-3f1802d4dc6f",
+               "dc:title" : "CernVM Batch Node (QEMU,KVM)",
+               "hv:hypervisor" : "QEMU,KVM",
+               "hv:size" : 343180225,
+               "hv:uri" : "https://cernvm.cern.ch/releases/25/cernvm-batch-node-2.7.2-1-2-x86.hdd.gz",
+               "hv:version" : "2.7.2-1-2",
+               "sl:arch" : "x86",
+               "sl:checksum:sha512" : "7e340c19e751df1c70b027242d3dab44b57e9ebc35c01e9301713dd0aa0859129678ec54a36f6145fa139cbaa1c44788342a41158e636b6d865a9320fcddb9f5",
+               "sl:comments" : "Batch Node",
+               "sl:os" : "Linux",
+               "sl:osversion" : "SL 5.5"
+            }
+         },
+         {
+            "hv:image" : {
+               "dc:description" : "This is CernVM image built on 2013-10-13 18:12:54 from group-cernvm-desktop=cernvm.cern.ch@cern:cernvm-2/2.7.2-1-2",
+               "dc:identifier" : "4547bffd-6d68-465c-b294-adcf9f69698b",
+               "dc:title" : "CernVM Desktop (QEMU,KVM)",
+               "hv:hypervisor" : "QEMU,KVM",
+               "hv:size" : 420438924,
+               "hv:uri" : "https://cernvm.cern.ch/releases/25/cernvm-desktop-2.7.2-1-2-x86.hdd.gz",
+               "hv:version" : "2.7.2-1-2",
+               "sl:arch" : "x86",
+               "sl:checksum:sha512" : "ae6c977f604e0d1fa300701f529580518e6b24192df1ebf57855e01289b07fcde4fcedb104df18d1bf2233e3cf9547902ddb96f30606cd92341ed85f278f579e",
+               "sl:comments" : "Desktop",
+               "sl:os" : "Linux",
+               "sl:osversion" : "SL 5.5"
+            }
+         },
+         {
+            "hv:image" : {
+               "dc:description" : "This is CernVM image built on 2013-10-13 18:07:21 from group-head-node=cernvm.cern.ch@cern:cernvm-2/2.7.2-1-2",
+               "dc:identifier" : "5c1cf1fa-4454-470a-9faf-dcfa4452e10a",
+               "dc:title" : "CernVM Head Node (QEMU,KVM)",
+               "hv:hypervisor" : "QEMU,KVM",
+               "hv:size" : 414418061,
+               "hv:uri" : "https://cernvm.cern.ch/releases/25/cernvm-head-node-2.7.2-1-2-x86_64.hdd.gz",
+               "hv:version" : "2.7.2-1-2",
+               "sl:arch" : "x86_64",
+               "sl:checksum:sha512" : "8e63913622cec15167e47083c61e7a271c5fa0ce4404b291926519faa9807c7d25d669a57e38b89ceba7a3ce82980ace641de0a86cd1b3d54bd6e3b18164f5d0",
+               "sl:comments" : "Head Node",
+               "sl:os" : "Linux",
+               "sl:osversion" : "SL 5.5"
+            }
+         },
+         {
+            "hv:image" : {
+               "dc:description" : "This is CernVM image built on 2013-10-13 18:12:59 from group-cernvm-desktop=cernvm.cern.ch@cern:cernvm-2/2.7.2-1-2",
+               "dc:identifier" : "858a817e-0ca2-473f-89d3-d5bdfc51968e",
+               "dc:title" : "CernVM Desktop (QEMU,KVM)",
+               "hv:hypervisor" : "QEMU,KVM",
+               "hv:size" : 473417455,
+               "hv:uri" : "https://cernvm.cern.ch/releases/25/cernvm-desktop-2.7.2-1-2-x86_64.hdd.gz",
+               "hv:version" : "2.7.2-1-2",
+               "sl:arch" : "x86_64",
+               "sl:checksum:sha512" : "160df5614abdfb7bc903a0b347f4ce472768302f71f637d527bb24a1e35b500dbed4a91bce058cfe1f82e6339bffe47a1e1e0e0d3329f292881740924d52ee37",
+               "sl:comments" : "Desktop",
+               "sl:os" : "Linux",
+               "sl:osversion" : "SL 5.5"
+            }
+         },
+         {
+            "hv:image" : {
+               "dc:description" : "This is CernVM image built on 2013-10-13 18:07:16 from group-cernvm-appliance=cernvm.cern.ch@cern:cernvm-2/2.7.2-1-2",
+               "dc:identifier" : "d7a24ef6-fef1-44b6-80dd-04d38054f8ae",
+               "dc:title" : "CernVM Basic (QEMU,KVM)",
+               "hv:hypervisor" : "QEMU,KVM",
+               "hv:size" : 265908689,
+               "hv:uri" : "https://cernvm.cern.ch/releases/25/cernvm-basic-2.7.2-1-2-x86.hdd.gz",
+               "hv:version" : "2.7.2-1-2",
+               "sl:arch" : "x86",
+               "sl:checksum:sha512" : "a262c3e36c5f184460953e8934e3dc8dc61c65a1729fd3f3ff425dffff0934abca92c0b61b664c43badb3840ad1ed03172e9a5d269aa840c18f59e2d64d4e3cb",
+               "sl:comments" : "Basic",
+               "sl:os" : "Linux",
+               "sl:osversion" : "SL 5.5"
+            }
+         },
+         {
+            "hv:image" : {
+               "dc:description" : "This is CernVM image built on 2013-10-13 18:14:21 from group-cernvm-appliance=cernvm.cern.ch@cern:cernvm-2/2.7.2-1-2",
+               "dc:identifier" : "c5fbe844-e8d6-4da2-9f22-364f2fa3b635",
+               "dc:title" : "CernVM Basic (Xen)",
+               "hv:hypervisor" : "Xen",
+               "hv:size" : 271273964,
+               "hv:uri" : "https://cernvm.cern.ch/releases/25/cernvm-basic-2.7.2-1-2-x86.ext3.gz",
+               "hv:version" : "2.7.2-1-2",
+               "sl:arch" : "x86",
+               "sl:checksum:sha512" : "4fd23dc36b30ec520897f68636ea2f872f069747851b48e9a994a797bc313cac2cb02c5e055bceabb9b5ff340c6573b998d443de58b8f79da57c70a174880a6a",
+               "sl:comments" : "Basic",
+               "sl:os" : "Linux",
+               "sl:osversion" : "SL 5.5"
+            }
+         },
+         {
+            "hv:image" : {
+               "dc:description" : "This is CernVM image built on 2013-10-13 18:16:16 from group-cernvm-appliance=cernvm.cern.ch@cern:cernvm-2/2.7.2-1-2",
+               "dc:identifier" : "b962bc3b-7121-463a-b607-f89d0091d096",
+               "dc:title" : "CernVM Basic (Xen)",
+               "hv:hypervisor" : "Xen",
+               "hv:size" : 311543295,
+               "hv:uri" : "https://cernvm.cern.ch/releases/25/cernvm-basic-2.7.2-1-2-x86_64.ext3.gz",
+               "hv:version" : "2.7.2-1-2",
+               "sl:arch" : "x86_64",
+               "sl:checksum:sha512" : "f2a97f9fdfd0cc98987afe2fe4bf3560fbb02be7a2c0d658ebf58d86807c1eced1f258ba6b9200c44671c905eb1a9d07c7b357216e784c1caf3f6f199d478b65",
+               "sl:comments" : "Basic",
+               "sl:os" : "Linux",
+               "sl:osversion" : "SL 5.5"
+            }
+         },
+         {
+            "hv:image" : {
+               "dc:description" : "This is CernVM image built on 2013-10-13 18:15:51 from group-cernvm-batch=cernvm.cern.ch@cern:cernvm-2/2.7.2-1-2",
+               "dc:identifier" : "c2c35cca-f885-4684-a772-204e6b076b98",
+               "dc:title" : "CernVM Batch Node (Xen)",
+               "hv:hypervisor" : "Xen",
+               "hv:size" : 336436237,
+               "hv:uri" : "https://cernvm.cern.ch/releases/25/cernvm-batch-node-2.7.2-1-2-x86.ext3.gz",
+               "hv:version" : "2.7.2-1-2",
+               "sl:arch" : "x86",
+               "sl:checksum:sha512" : "a8c021d3505c6de40a80f49d027706657eb5f6bc95a7c208eacc076e3941a0910b195e21edda79f02acce9a496b2a2aacab5e3fdbb8bbeb8d6b848dc782b3b24",
+               "sl:comments" : "Batch Node",
+               "sl:os" : "Linux",
+               "sl:osversion" : "SL 5.5"
+            }
+         },
+         {
+            "hv:image" : {
+               "dc:description" : "This is CernVM image built on 2013-10-13 18:17:32 from group-cernvm-batch=cernvm.cern.ch@cern:cernvm-2/2.7.2-1-2",
+               "dc:identifier" : "cfef6f26-40c1-4f50-8e0e-16766c616229",
+               "dc:title" : "CernVM Batch Node (Xen)",
+               "hv:hypervisor" : "Xen",
+               "hv:size" : 409255586,
+               "hv:uri" : "https://cernvm.cern.ch/releases/25/cernvm-batch-node-2.7.2-1-2-x86_64.ext3.gz",
+               "hv:version" : "2.7.2-1-2",
+               "sl:arch" : "x86_64",
+               "sl:checksum:sha512" : "2610235774c5e3c26901fb2303c00251a9c73af3861e95d752444f799bfcea9c6c40cdf4a51c06db0ca96ba58763df5c24d83b771c7ef073e7d0f86af94dc4ae",
+               "sl:comments" : "Batch Node",
+               "sl:os" : "Linux",
+               "sl:osversion" : "SL 5.5"
+            }
+         },
+         {
+            "hv:image" : {
+               "dc:description" : "This is CernVM image built on 2013-10-13 18:17:22 from group-head-node=cernvm.cern.ch@cern:cernvm-2/2.7.2-1-2",
+               "dc:identifier" : "8d6eb977-b10e-415f-98fe-d71235a041c9",
+               "dc:title" : "CernVM Head Node (Xen)",
+               "hv:hypervisor" : "Xen",
+               "hv:size" : 409438134,
+               "hv:uri" : "https://cernvm.cern.ch/releases/25/cernvm-head-node-2.7.2-1-2-x86_64.ext3.gz",
+               "hv:version" : "2.7.2-1-2",
+               "sl:arch" : "x86_64",
+               "sl:checksum:sha512" : "d8d4658fe3674c5388740d4a45b4c529fc6aea7ecde799be59c54b43943d70f5dec56d3ba9f3daac1ce291dd90d3d884338faea76ff8d5c76b3636588c4dad3d",
+               "sl:comments" : "Head Node",
+               "sl:os" : "Linux",
+               "sl:osversion" : "SL 5.5"
+            }
+         },
+         {
+            "hv:image" : {
+               "dc:description" : "This is CernVM image built on 2013-10-13 18:14:32 from group-cernvm-appliance=cernvm.cern.ch@cern:cernvm-2/2.7.2-1-2",
+               "dc:identifier" : "b36d8b24-c63c-4fd1-ba13-bda6877207e8",
+               "dc:title" : "CernVM Basic (VirtualBox)",
+               "hv:hypervisor" : "VirtualBox",
+               "hv:size" : 248670933,
+               "hv:uri" : "https://cernvm.cern.ch/releases/25/cernvm-basic-2.7.2-1-2-x86.vdi.gz",
+               "hv:version" : "2.7.2-1-2",
+               "sl:arch" : "x86",
+               "sl:checksum:sha512" : "d1241b596e3fa4bd3a97d8f7c4d4b86a6588abaae90bce21f3c0640b6432acc914bcf2db7135d20cf0ddbc52bc28b785da84e9349d6fe55dbde832f0f8cc3895",
+               "sl:comments" : "Basic",
+               "sl:os" : "Linux",
+               "sl:osversion" : "SL 5.5"
+            }
+         },
+         {
+            "hv:image" : {
+               "dc:description" : "This is CernVM image built on 2013-10-13 18:20:34 from group-cernvm-appliance=cernvm.cern.ch@cern:cernvm-2/2.7.2-1-2",
+               "dc:identifier" : "f30127c4-d438-4d6a-a623-23f98d5b7727",
+               "dc:title" : "CernVM Basic (VirtualBox)",
+               "hv:hypervisor" : "VirtualBox",
+               "hv:size" : 300959849,
+               "hv:uri" : "https://cernvm.cern.ch/releases/25/cernvm-basic-2.7.2-1-2-x86_64.vdi.gz",
+               "hv:version" : "2.7.2-1-2",
+               "sl:arch" : "x86_64",
+               "sl:checksum:sha512" : "400f189a45dd7944b2412e9a7ce5251386d6d813a0d14e984fdd8b394d7eeceb21d2727f462b48eac0fcbae94720488818f6c78ffe5578f0f7c51061bb25baac",
+               "sl:comments" : "Basic",
+               "sl:os" : "Linux",
+               "sl:osversion" : "SL 5.5"
+            }
+         },
+         {
+            "hv:image" : {
+               "dc:description" : "This is CernVM image built on 2013-10-13 18:20:07 from group-boinc=cernvm.cern.ch@cern:cernvm-2/2.7.2-1-2",
+               "dc:identifier" : "e2785162-6889-4c64-b789-0be70a448ad8",
+               "dc:title" : "CernVM BOINC (VirtualBox)",
+               "hv:hypervisor" : "VirtualBox",
+               "hv:size" : 252639654,
+               "hv:uri" : "https://cernvm.cern.ch/releases/25/cernvm-boinc-2.7.2-1-2-x86.vdi.gz",
+               "hv:version" : "2.7.2-1-2",
+               "sl:arch" : "x86",
+               "sl:checksum:sha512" : "6a752d45de61a34d4f376e430489b897e2bf64a1793b8e4662bd9c5aee323f617975f8de97081a745af5e780f29669f5b97a131bdd9e3a11134a2a0628f63150",
+               "sl:comments" : "BOINC",
+               "sl:os" : "Linux",
+               "sl:osversion" : "SL 5.5"
+            }
+         },
+         {
+            "hv:image" : {
+               "dc:description" : "This is CernVM image built on 2013-10-13 18:29:13 from group-cernvm-desktop=cernvm.cern.ch@cern:cernvm-2/2.7.2-1-2",
+               "dc:identifier" : "b6af7c44-4960-4ba9-ae48-4e2c74b71d96",
+               "dc:title" : "CernVM Desktop (VirtualBox)",
+               "hv:hypervisor" : "VirtualBox",
+               "hv:size" : 404301115,
+               "hv:uri" : "https://cernvm.cern.ch/releases/25/cernvm-desktop-2.7.2-1-2-x86.vdi.gz",
+               "hv:version" : "2.7.2-1-2",
+               "sl:arch" : "x86",
+               "sl:checksum:sha512" : "5a55dd6f060a4141075d1592e27865910a0772ad0906df55aa850037a36d7303b5cce0e46418fb119da071be9149021b47bd67a1a33f0b0370cc4ec6007fbc15",
+               "sl:comments" : "Desktop",
+               "sl:os" : "Linux",
+               "sl:osversion" : "SL 5.5"
+            }
+         },
+         {
+            "hv:image" : {
+               "dc:description" : "This is CernVM image built on 2013-10-13 18:30:05 from group-cernvm-desktop=cernvm.cern.ch@cern:cernvm-2/2.7.2-1-2",
+               "dc:identifier" : "de451932-4df6-4c27-9f3f-531df505f679",
+               "dc:title" : "CernVM Desktop (VirtualBox)",
+               "hv:hypervisor" : "VirtualBox",
+               "hv:size" : 452419187,
+               "hv:uri" : "https://cernvm.cern.ch/releases/25/cernvm-desktop-2.7.2-1-2-x86_64.vdi.gz",
+               "hv:version" : "2.7.2-1-2",
+               "sl:arch" : "x86_64",
+               "sl:checksum:sha512" : "8dbe3266675df05eaece25cee379a91006b74c2ddbd1f738332bce08b77c9a309e5847413a9318dbd6e08fd67c9832da04007fc372c9c4dd6162f65b79377dff",
+               "sl:comments" : "Desktop",
+               "sl:os" : "Linux",
+               "sl:osversion" : "SL 5.5"
+            }
+         },
+         {
+            "hv:image" : {
+               "dc:description" : "This is CernVM image built on 2013-10-13 18:21:44 from group-cernvm-appliance=cernvm.cern.ch@cern:cernvm-2/2.7.2-1-2",
+               "dc:identifier" : "e0c124c3-9043-43db-8c9e-d07d7348213b",
+               "dc:title" : "CernVM Basic (Hyper-V)",
+               "hv:hypervisor" : "Hyper-V",
+               "hv:size" : 253802540,
+               "hv:uri" : "https://cernvm.cern.ch/releases/25/cernvm-basic-2.7.2-1-2-x86.vhd.gz",
+               "hv:version" : "2.7.2-1-2",
+               "sl:arch" : "x86",
+               "sl:checksum:sha512" : "fffed421cb2fd134567c27479bd25d292378072316d389dbb8df08650c870352146273b2d94dac407b0c507c229420beb9968650eefaa2a5f837b8221296a4c7",
+               "sl:comments" : "Basic",
+               "sl:os" : "Linux",
+               "sl:osversion" : "SL 5.5"
+            }
+         },
+         {
+            "hv:image" : {
+               "dc:description" : "This is CernVM image built on 2013-10-13 18:23:25 from group-cernvm-appliance=cernvm.cern.ch@cern:cernvm-2/2.7.2-1-2",
+               "dc:identifier" : "16024438-b425-46f6-a083-b2eda541210b",
+               "dc:title" : "CernVM Basic (Hyper-V)",
+               "hv:hypervisor" : "Hyper-V",
+               "hv:size" : 304965448,
+               "hv:uri" : "https://cernvm.cern.ch/releases/25/cernvm-basic-2.7.2-1-2-x86_64.vhd.gz",
+               "hv:version" : "2.7.2-1-2",
+               "sl:arch" : "x86_64",
+               "sl:checksum:sha512" : "56772a0a93b0d9b52b475d1b3dd424c84062ce47e60a5687f07a59e1aee309e4c9b45acc7b30a1466156bb19cf806e6f1edf5721428638919279a5501aca0de9",
+               "sl:comments" : "Basic",
+               "sl:os" : "Linux",
+               "sl:osversion" : "SL 5.5"
+            }
+         },
+         {
+            "hv:image" : {
+               "dc:description" : "This is CernVM image built on 2013-10-13 18:31:43 from group-cernvm-desktop=cernvm.cern.ch@cern:cernvm-2/2.7.2-1-2",
+               "dc:identifier" : "f63a23ca-210e-4892-996e-112e346f1afb",
+               "dc:title" : "CernVM Desktop (Hyper-V)",
+               "hv:hypervisor" : "Hyper-V",
+               "hv:size" : 413300895,
+               "hv:uri" : "https://cernvm.cern.ch/releases/25/cernvm-desktop-2.7.2-1-2-x86.vhd.gz",
+               "hv:version" : "2.7.2-1-2",
+               "sl:arch" : "x86",
+               "sl:checksum:sha512" : "038ec2b460cc5c1c3f8f014219f5f3f32eba965a000e622747cefe4e55aa3e07be5a129ab94f1687494a3862f54c109b6b7defddb739fed6e15ab85b17f0fb65",
+               "sl:comments" : "Desktop",
+               "sl:os" : "Linux",
+               "sl:osversion" : "SL 5.5"
+            }
+         },
+         {
+            "hv:image" : {
+               "dc:description" : "This is CernVM image built on 2013-10-13 18:32:58 from group-cernvm-desktop=cernvm.cern.ch@cern:cernvm-2/2.7.2-1-2",
+               "dc:identifier" : "b96d7f8b-1820-4bd7-9e23-65407ea3c12a",
+               "dc:title" : "CernVM Desktop (Hyper-V)",
+               "hv:hypervisor" : "Hyper-V",
+               "hv:size" : 462036751,
+               "hv:uri" : "https://cernvm.cern.ch/releases/25/cernvm-desktop-2.7.2-1-2-x86_64.vhd.gz",
+               "hv:version" : "2.7.2-1-2",
+               "sl:arch" : "x86_64",
+               "sl:checksum:sha512" : "a7bb4333d84cb12c3362c415b69e730b52a3eec3eabf256a4aa64b8c07c87127ad32b12aeb70158c7683d7832b1f30af6787b85f3d5d9a864dd091c47c9c14f3",
+               "sl:comments" : "Desktop",
+               "sl:os" : "Linux",
+               "sl:osversion" : "SL 5.5"
+            }
+         },
+         {
+            "hv:image" : {
+               "dc:description" : "This is CernVM image built on 2013-10-13 18:26:51 from group-cernvm-appliance=cernvm.cern.ch@cern:cernvm-2/2.7.2-1-2",
+               "dc:identifier" : "e98f0904-a011-4c5b-b2a5-bbae30fe3afd",
+               "dc:title" : "CernVM Basic (VMware)",
+               "hv:hypervisor" : "VMware",
+               "hv:size" : 261701204,
+               "hv:uri" : "https://cernvm.cern.ch/releases/25/cernvm-basic-2.7.2-1-2-x86.tar.gz",
+               "hv:version" : "2.7.2-1-2",
+               "sl:arch" : "x86",
+               "sl:checksum:sha512" : "1363a1eacba24aeacb31de794c07e57d52d5a44b0aac66e8f132dca07ca57ad7bf298a98e4543a1e8dc0e59c69858b12ad693a38c521431f96d24058a7bced86",
+               "sl:comments" : "Basic",
+               "sl:os" : "Linux",
+               "sl:osversion" : "SL 5.5"
+            }
+         },
+         {
+            "hv:image" : {
+               "dc:description" : "This is CernVM image built on 2013-10-13 18:28:26 from group-cernvm-appliance=cernvm.cern.ch@cern:cernvm-2/2.7.2-1-2",
+               "dc:identifier" : "46d72a7b-7203-4277-a11a-0fad1b881486",
+               "dc:title" : "CernVM Basic (VMware)",
+               "hv:hypervisor" : "VMware",
+               "hv:size" : 311559345,
+               "hv:uri" : "https://cernvm.cern.ch/releases/25/cernvm-basic-2.7.2-1-2-x86_64.tar.gz",
+               "hv:version" : "2.7.2-1-2",
+               "sl:arch" : "x86_64",
+               "sl:checksum:sha512" : "0fae816fc8f917e6f523db65b56713522132fb4db9e22699c3dc00db2cfba139eb920820b951c4e548ece2c74ec4823b63bc9ae08c56a3916a06db083069821d",
+               "sl:comments" : "Basic",
+               "sl:os" : "Linux",
+               "sl:osversion" : "SL 5.5"
+            }
+         },
+         {
+            "hv:image" : {
+               "dc:description" : "This is CernVM image built on 2013-10-13 18:30:47 from group-cernvm-batch=cernvm.cern.ch@cern:cernvm-2/2.7.2-1-2",
+               "dc:identifier" : "7c76250d-96a7-4ffe-b51a-3c360750496a",
+               "dc:title" : "CernVM Batch Node (VMware)",
+               "hv:hypervisor" : "VMware",
+               "hv:size" : 396238763,
+               "hv:uri" : "https://cernvm.cern.ch/releases/25/cernvm-batch-node-2.7.2-1-2-x86_64.tar.gz",
+               "hv:version" : "2.7.2-1-2",
+               "sl:arch" : "x86_64",
+               "sl:checksum:sha512" : "a4a6868064b869622e3bb0d76fdc4ef9ee58aabf80a0d31fcf43392c7e89853abef51e3ed3c1bb8069d028a7f91199e1875d999974fb6ef832e29fbc9a4709d1",
+               "sl:comments" : "Batch Node",
+               "sl:os" : "Linux",
+               "sl:osversion" : "SL 5.5"
+            }
+         },
+         {
+            "hv:image" : {
+               "dc:description" : "This is CernVM image built on 2013-10-13 18:37:35 from group-cernvm-desktop=cernvm.cern.ch@cern:cernvm-2/2.7.2-1-2",
+               "dc:identifier" : "7a3245e8-b931-4bb5-bfb0-677d572f5bdf",
+               "dc:title" : "CernVM Desktop (VMware)",
+               "hv:hypervisor" : "VMware",
+               "hv:size" : 415519506,
+               "hv:uri" : "https://cernvm.cern.ch/releases/25/cernvm-desktop-2.7.2-1-2-x86.tar.gz",
+               "hv:version" : "2.7.2-1-2",
+               "sl:arch" : "x86",
+               "sl:checksum:sha512" : "e43312c830f036f397ebb5d11dcf179b41caf3fff8aa7c53e9657aea4e0d28b63a6935eeb4d974b364ab1c0db24ce6c600bfd102ec990f164239f03437497d73",
+               "sl:comments" : "Desktop",
+               "sl:os" : "Linux",
+               "sl:osversion" : "SL 5.5"
+            }
+         },
+         {
+            "hv:image" : {
+               "dc:description" : "This is CernVM image built on 2013-10-13 18:40:54 from group-cernvm-desktop=cernvm.cern.ch@cern:cernvm-2/2.7.2-1-2",
+               "dc:identifier" : "ca8ded32-641a-462e-b873-7a0d82898dec",
+               "dc:title" : "CernVM Desktop (VMware)",
+               "hv:hypervisor" : "VMware",
+               "hv:size" : 471326144,
+               "hv:uri" : "https://cernvm.cern.ch/releases/25/cernvm-desktop-2.7.2-1-2-x86_64.tar.gz",
+               "hv:version" : "2.7.2-1-2",
+               "sl:arch" : "x86_64",
+               "sl:checksum:sha512" : "1fafa2446946b42c3cc338ddeecb1dc394837f97e62d96d82478002e0be04880b3b7186879c95460aa70c9fd3b8d39072d0463cad15819ec23b55624a46babb4",
+               "sl:comments" : "Desktop",
+               "sl:os" : "Linux",
+               "sl:osversion" : "SL 5.5"
+            }
+         },
+         {
+            "hv:image" : {
+               "dc:description" : "This is CernVM image built on 2013-10-13 18:37:19 from group-head-node=cernvm.cern.ch@cern:cernvm-2/2.7.2-1-2",
+               "dc:identifier" : "b2819ec5-b7e9-439a-a058-a60f5317bba7",
+               "dc:title" : "CernVM Head Node (VMware)",
+               "hv:hypervisor" : "VMware",
+               "hv:size" : 408089816,
+               "hv:uri" : "https://cernvm.cern.ch/releases/25/cernvm-head-node-2.7.2-1-2-x86_64.tar.gz",
+               "hv:version" : "2.7.2-1-2",
+               "sl:arch" : "x86_64",
+               "sl:checksum:sha512" : "511e6f315179ef793747335ee152850869e040b3ca5b4d468de0036dce29717e918b42e6c38be9c54fdf16f4596182630ffbc5999f93c06caa2730465c4758ed",
+               "sl:comments" : "Head Node",
+               "sl:os" : "Linux",
+               "sl:osversion" : "SL 5.5"
+            }
+         },
+         {
+            "hv:image" : {
+               "dc:description" : "This is CernVM image built on 2013-10-13 18:41:28 from group-cernvm-desktop=cernvm.cern.ch@cern:cernvm-2/2.7.2-1-2",
+               "dc:identifier" : "2934ec2b-7a67-4b96-ba16-6775d66898d0",
+               "dc:title" : "CernVM Desktop (VirtualPC)",
+               "hv:hypervisor" : "VirtualPC",
+               "hv:size" : 412500452,
+               "hv:uri" : "https://cernvm.cern.ch/releases/25/cernvm-desktop-2.7.2-1-2-x86.vpc.gz",
+               "hv:version" : "2.7.2-1-2",
+               "sl:arch" : "x86",
+               "sl:checksum:sha512" : "2911d9910f742046734f739c51e556e8b829c6ae6c2abce500d9472fee5f6a09df7064b95bb1a8ae2d27c60b5026f3d8726453e9c879c58c9cad8a4512688bf5",
+               "sl:comments" : "Desktop",
+               "sl:os" : "Linux",
+               "sl:osversion" : "SL 5.5"
+            }
+         },
+         {
+            "hv:image" : {
+               "dc:description" : "This is CernVM image built on 2013-10-13 18:42:34 from group-cernvm-desktop=cernvm.cern.ch@cern:cernvm-2/2.7.2-1-2",
+               "dc:identifier" : "3a1df02c-121a-461d-b720-521903ef99f0",
+               "dc:title" : "CernVM Desktop (VirtualPC)",
+               "hv:hypervisor" : "VirtualPC",
+               "hv:size" : 459739916,
+               "hv:uri" : "https://cernvm.cern.ch/releases/25/cernvm-desktop-2.7.2-1-2-x86_64.vpc.gz",
+               "hv:version" : "2.7.2-1-2",
+               "sl:arch" : "x86_64",
+               "sl:checksum:sha512" : "51e41b2bf9fc4b5f1efefac4a5027e06f7f866ab9019c2aca63187e64649a5691c98ea3fe5ab810ed703c8ddcedf734e19f0ea51a277fe183c13e8c90e42709f",
+               "sl:comments" : "Desktop",
+               "sl:os" : "Linux",
+               "sl:osversion" : "SL 5.5"
+            }
+         }
+      ],
+      "hv:uri" : "https://cernvm.cern.ch/releases/image.list",
+      "hv:version" : "1"
+   }
+}
+
+------5750AB10814F5DC0A41A792732EF8FA8
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="smime.p7s"
+
+MIIKAQYJKoZIhvcNAQcCoIIJ8jCCCe4CAQExCzAJBgUrDgMCGgUAMAsGCSqGSIb3
+DQEHAaCCB4cwggeDMIIGa6ADAgECAgoav2k2AAIAAd87MA0GCSqGSIb3DQEBBQUA
+MFkxEjAQBgoJkiaJk/IsZAEZFgJjaDEUMBIGCgmSJomT8ixkARkWBGNlcm4xLTAr
+BgNVBAMTJENFUk4gVHJ1c3RlZCBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eTAeFw0x
+MzA0MTYxNDIyNTVaFw0xNDA0MTYxNDIyNTVaMIGNMRIwEAYKCZImiZPyLGQBGRYC
+Y2gxFDASBgoJkiaJk/IsZAEZFgRjZXJuMRYwFAYDVQQLEw1PcmdhbmljIFVuaXRz
+MQ4wDAYDVQQLEwVVc2VyczEPMA0GA1UEAxMGYnVuY2ljMQ8wDQYDVQQDEwYzNzkw
+MTAxFzAVBgNVBAMTDlByZWRyYWcgQnVuY2ljMIIBIjANBgkqhkiG9w0BAQEFAAOC
+AQ8AMIIBCgKCAQEAvspmIBw8qLwDji99ScvrPK8+B6RAUiqUr79wLmsNg6QtJtHQ
+K/Gk4Nny9NzpbORgSK7p2jloREjTmuBdjuPcu36b8l9263ox2819oGfF3YgW+i3I
+w5G9OeofvjCmhx2I2cFkQZtUf7rgHXEVFH/s+c24CLQeNmHJvzf+SKZWbMojxSvP
+Wnhnw01Sz4s6Y/GgZCPx6BAV/qkUVzFpuIQnhSmVs27irQsAr1tGcmRnaLDikqHP
+drCDLv5cdiYV2+e27K8614GXEzmA2vjhX7xBbVhVJI4Kjk+/iuEBsNDWX/wAtGwQ
+BPh+zGka2+upvw+lw6eEWK6j9Dmq4NS1j9s6swIDAQABo4IEFjCCBBIwHQYDVR0O
+BBYEFIeiA/f/ezNRQmJJmLoBqZCyicnmMB8GA1UdIwQYMBaAFJjMktBGMDaMsO2Y
+DXJRqUdM3b4hMIIBMgYDVR0fBIIBKTCCASUwggEhoIIBHaCCARmGR2h0dHA6Ly9j
+YS5jZXJuLmNoL2NhL2NybC9DRVJOJTIwVHJ1c3RlZCUyMENlcnRpZmljYXRpb24l
+MjBBdXRob3JpdHkuY3JshoHNbGRhcDovLy9DTj1DRVJOJTIwVHJ1c3RlZCUyMENl
+cnRpZmljYXRpb24lMjBBdXRob3JpdHksQ049Q0VSTlBLSSxDTj1DRFAsQ049UHVi
+bGljJTIwS2V5JTIwU2VydmljZXMsQ049U2VydmljZXMsQ049Q29uZmlndXJhdGlv
+bixEQz1jZXJuLERDPWNoP2NlcnRpZmljYXRlUmV2b2NhdGlvbkxpc3Q/YmFzZT9v
+YmplY3RDbGFzcz1jUkxEaXN0cmlidXRpb25Qb2ludDCCAS8GCCsGAQUFBwEBBIIB
+ITCCAR0wgcUGCCsGAQUFBzAChoG4bGRhcDovLy9DTj1DRVJOJTIwVHJ1c3RlZCUy
+MENlcnRpZmljYXRpb24lMjBBdXRob3JpdHksQ049QUlBLENOPVB1YmxpYyUyMEtl
+eSUyMFNlcnZpY2VzLENOPVNlcnZpY2VzLENOPUNvbmZpZ3VyYXRpb24sREM9Y2Vy
+bixEQz1jaD9jQUNlcnRpZmljYXRlP2Jhc2U/b2JqZWN0Q2xhc3M9Y2VydGlmaWNh
+dGlvbkF1dGhvcml0eTBTBggrBgEFBQcwAoZHaHR0cDovL2NhLmNlcm4uY2gvY2Ev
+Y3JsL0NFUk4lMjBUcnVzdGVkJTIwQ2VydGlmaWNhdGlvbiUyMEF1dGhvcml0eS5j
+cnQwDgYDVR0PAQH/BAQDAgWgMD0GCSsGAQQBgjcVBwQwMC4GJisGAQQBgjcVCIO9
+0AmC7Y0Nhu2LK4He9TeFgNBiHoW/ugOExMxMAgFkAgEKMCkGA1UdJQQiMCAGCCsG
+AQUFBwMCBggrBgEFBQcDBAYKKwYBBAGCNwoDBDAlBgNVHSAEHjAcMAwGCisGAQQB
+YAoCAQIwDAYKKoZIhvdMBQICATA1BgkrBgEEAYI3FQoEKDAmMAoGCCsGAQUFBwMC
+MAoGCCsGAQUFBwMEMAwGCisGAQQBgjcKAwQwSQYDVR0RBEIwQKAmBgorBgEEAYI3
+FAIDoBgMFnByZWRyYWcuYnVuY2ljQGNlcm4uY2iBFlByZWRyYWcuQnVuY2ljQGNl
+cm4uY2gwRAYJKoZIhvcNAQkPBDcwNTAOBggqhkiG9w0DAgICAIAwDgYIKoZIhvcN
+AwQCAgCAMAcGBSsOAwIHMAoGCCqGSIb3DQMHMA0GCSqGSIb3DQEBBQUAA4IBAQBJ
+fs9dWDBOkrt7cMuKeTx+whzf1bkGkHoWt4AhqX5KrvuhOljioCiy49m08qvJd2++
+5QChWMKWlGlRUf7BM5mO2+Cyl7emhOXfxkmyxfDdjW2aTw8rIP3YHKHS9towxrWJ
+mSH71/+LCXMqIYj5lYyOLhBOsHihWD4loE3iCutwmhXRn2eiYcgMx4bNRM8GbeM/
+MhR+qItoQ2s6ftPey8HvLL1PWdtUBDfCv7jkWCwqugONhObisVwAe7NheicAO1R7
+CZ9mgcNdRIopUtyt62F4921W5JNZlQeb/zANyN/Bsk6Q7pNndaiVIANhjho5r+bB
+m8p/a8BbC85RFl6Hz4iUMYICQjCCAj4CAQEwZzBZMRIwEAYKCZImiZPyLGQBGRYC
+Y2gxFDASBgoJkiaJk/IsZAEZFgRjZXJuMS0wKwYDVQQDEyRDRVJOIFRydXN0ZWQg
+Q2VydGlmaWNhdGlvbiBBdXRob3JpdHkCChq/aTYAAgAB3zswCQYFKw4DAhoFAKCB
+sTAYBgkqhkiG9w0BCQMxCwYJKoZIhvcNAQcBMBwGCSqGSIb3DQEJBTEPFw0xMzEw
+MTMyMTA1NTlaMCMGCSqGSIb3DQEJBDEWBBQwDt/hJ9X/de1xaQjKK1KesxJ7wTBS
+BgkqhkiG9w0BCQ8xRTBDMAoGCCqGSIb3DQMHMA4GCCqGSIb3DQMCAgIAgDANBggq
+hkiG9w0DAgIBQDAHBgUrDgMCBzANBggqhkiG9w0DAgIBKDANBgkqhkiG9w0BAQEF
+AASCAQAa+a42boxyGh80g10N3yS/rO0t8ai3U1EhltkPjTQuUwwj4ODLl8nQio2J
+qaGxGLqdUp63v95lCciR/2F/Gg75avVXTGvkgOXl8bXCLfr88wFkNhPZuDK1T/Sx
+poe2xFKUyxPOiwUopsMvGPnu6QhygNqeUfdbN7okeillLoBV9aJwH5abaZfrklm+
+i3FrEPn8MSBQxl5AIlvTzpv28xP1Tp5f0a+BQOo2T3cDO3tm8pSzWthWQewIc0cb
+vp6N8QXxqIXUHLuPiBrTxRWAds/A7Gx1igWkiBrCquOudgNEWYPk71Kr3rxUXJqV
+MF5wvEjmOHiaajoDczR2cZ7yZN8X
+
+------5750AB10814F5DC0A41A792732EF8FA8--
+

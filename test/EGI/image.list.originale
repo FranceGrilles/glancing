@@ -1,0 +1,351 @@
+MIME-Version: 1.0
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha1"; boundary="----9C254B99D8F2FFC5BCDAFFA5A0C01B27"
+
+This is an S/MIME signed message
+
+------9C254B99D8F2FFC5BCDAFFA5A0C01B27
+{
+   "hv:imagelist": {
+      "dc:date:created": "2015-06-18T21:14:00Z",
+      "dc:date:expires": "2499-12-31T22:00:00Z",
+      "dc:description": "This is a VO-wide image list for fedcloud.egi.eu VO.",
+      "dc:identifier": "76fdee70-8119-5d33-9f40-3c57e1c60df1",
+      "dc:source": "https://appdb.egi.eu/",
+      "dc:title": "VO fedcloud.egi.eu image list.",
+      "ad:vo": "fedcloud.egi.eu",
+      "hv:endorser": {
+         "hv:x509": {
+            "dc:creator": "EGI Applications Database",
+            "hv:ca": "/DC=ORG/DC=SEE-GRID/CN=SEE-GRID CA 2013",
+            "hv:dn": "/DC=EU/DC=EGI/C=NL/O=Hosts/O=EGI.eu/CN=appdb.egi.eu",
+            "hv:email": "appdb-support@iasa.gr"
+         }
+      },
+      "hv:images": [
+         {
+            "hv:image": {
+               "dc:description": "This version of CERNVM has been modified by EGI with the followign changes - default OS extended to 40GB of disk - updated OpenNebula Cloud-Init driver to latest version 0.7.5 - enabled all Cloud-Init data sources",
+               "dc:identifier": "c0482bc2-bf41-5d49-a85f-a750174a186b",
+               "ad:mpuri": "https://appdb.egi.eu/store/vo/image/c0482bc2-bf41-5d49-a85f-a750174a186b:484/",
+               "dc:title": "Image for CernVM [Scientific Linux/6.0/KVM]",
+               "ad:group": "General group",
+               "hv:hypervisor": "KVM",
+               "hv:format": "OVA",
+               "hv:ram_minimum": "512",
+               "ad:ram_recommended": "1024",
+               "hv:core_minimum": "1",
+               "ad:core_recommended": "4",
+               "hv:size": "121243136",
+               "hv:uri": "http://appliance-repo.egi.eu/images/base/CERNVM/3.3.0/CERNVM-3.3.0-40GB.ova",
+               "hv:version": "3.3.0-1",
+               "sl:arch": "x86_64",
+               "sl:checksum:sha512": "5c548a09467df6ff6ee77659a8cfe15115ef366b94baa30c47e079b744309652a17c8f947ab437e70c799480b4b5dc3d68a3b22581b3318db35dd3364e83dab0",
+               "sl:comments": "",
+               "sl:os": "Linux",
+               "sl:osname": "Scientific Linux",
+               "sl:osversion": "6.0",
+               "ad:user:fullname": "Pinto Salvatore",
+               "ad:user:guid": "9d9dd6cf-b61a-46db-b1df-b5731adf717c",
+               "ad:user:uri": "https://appdb.egi.eu/store/person/salvatore.pinto"
+            }
+         },
+         {
+            "hv:image": {
+               "dc:description": "",
+               "dc:identifier": "662b0e71-3e21-5f43-b6a1-cc2f51319fa7",
+               "ad:mpuri": "https://appdb.egi.eu/store/vo/image/662b0e71-3e21-5f43-b6a1-cc2f51319fa7:485/",
+               "dc:title": "Image for CentOS 6 minimal [CentOS/6.x/KVM]",
+               "ad:group": "General group",
+               "hv:hypervisor": "KVM",
+               "hv:format": "OVA",
+               "hv:size": "581816320",
+               "hv:uri": "http://appliance-repo.egi.eu/images/base/CentOS-6.x-x86_64/20141029/CentOS-6.5-20141029.ova",
+               "hv:version": "20141029",
+               "sl:arch": "x86_64",
+               "sl:checksum:sha512": "02a2b436e8f10c22527795c33bf623a1a0ef2e7036166e8831f653c3662f8f897a821f4751d774947e32a854654ff645097c47da236e46ad54806c6fc72a29ce",
+               "sl:comments": "",
+               "sl:os": "Linux",
+               "sl:osname": "CentOS",
+               "sl:osversion": "6.6",
+               "ad:user:fullname": "Fernandez Enol",
+               "ad:user:guid": "e85470d8-2af9-11e0-8c26-0014c23dfd8c",
+               "ad:user:uri": "https://appdb.egi.eu/store/person/enol.fernandez"
+            }
+         },
+         {
+            "hv:image": {
+               "dc:description": "",
+               "dc:identifier": "b25c250b-637b-5622-a6fb-b0db4f2883f2",
+               "ad:mpuri": "https://appdb.egi.eu/store/vo/image/b25c250b-637b-5622-a6fb-b0db4f2883f2:486/",
+               "dc:title": "OS Disk Image",
+               "ad:group": "Scientific Linux 6.5 Minimal OS",
+               "hv:hypervisor": "QEMU-KVM",
+               "hv:format": "OVA",
+               "hv:ram_minimum": "512",
+               "ad:ram_recommended": "1024",
+               "hv:core_minimum": "1",
+               "ad:core_recommended": "2",
+               "hv:size": "431902720",
+               "hv:uri": "http://appliance-repo.egi.eu/images/base/SL-6.5-x86_64-minimal/20141029/SL6.5-20141029.ova",
+               "hv:version": "20141029",
+               "sl:arch": "x86_64",
+               "sl:checksum:sha512": "a9690261dca2402ff9e42fff3031c0fe51992f3bac8e3791c09e9eb8edb7458578d8ca32559047f563d2e1e8ce42fcd867dd83d468abb3cd58e33eb4b18edad4",
+               "sl:comments": "",
+               "sl:os": "Linux",
+               "sl:osname": "Scientific Linux",
+               "sl:osversion": "Scientific Linux 6.5",
+               "ad:user:fullname": "Fernandez Enol",
+               "ad:user:guid": "e85470d8-2af9-11e0-8c26-0014c23dfd8c",
+               "ad:user:uri": "https://appdb.egi.eu/store/person/enol.fernandez"
+            }
+         },
+         {
+            "hv:image": {
+               "dc:description": "This machine image is provided by the Ubuntu project http//cloud-images.ubuntu.com",
+               "dc:identifier": "800f345f-5278-5523-a1dc-8a98476006f8",
+               "ad:mpuri": "https://appdb.egi.eu/store/vo/image/800f345f-5278-5523-a1dc-8a98476006f8:488/",
+               "dc:title": "Basic Ubuntu Server 12.04 LTS OS Disk Image",
+               "ad:group": "Basic Ubuntu Server 12.04 LTS OS",
+               "hv:hypervisor": "QEMU-KVM",
+               "hv:format": "OVA",
+               "hv:ram_minimum": "512",
+               "ad:ram_recommended": "2048",
+               "hv:core_minimum": "1",
+               "ad:core_recommended": "4",
+               "hv:size": "550072320",
+               "hv:uri": "http://appliance-repo.egi.eu/images/base/UbuntuServer-12.04-x86_64-base/20141030/UbuntuServer-12.04-20141030.ova",
+               "hv:version": "20141030",
+               "sl:arch": "x86_64",
+               "sl:checksum:sha512": "57741492de3dfc6060f1ae06509982e41ce2dd9d75d8f032155de7db195ff2991ae912188be1ea212ac5891a574ff16fc96bcd687714ba8c85e201f33cb17338",
+               "sl:comments": "",
+               "sl:os": "Linux",
+               "sl:osname": "Ubuntu",
+               "sl:osversion": "Ubuntu 12.04",
+               "ad:user:fullname": "Fernandez Enol",
+               "ad:user:guid": "e85470d8-2af9-11e0-8c26-0014c23dfd8c",
+               "ad:user:uri": "https://appdb.egi.eu/store/person/enol.fernandez"
+            }
+         },
+         {
+            "hv:image": {
+               "dc:description": "",
+               "dc:identifier": "de355bfb-5781-5b0c-9ccd-9bd3d0d2be06",
+               "ad:mpuri": "https://appdb.egi.eu/store/vo/image/de355bfb-5781-5b0c-9ccd-9bd3d0d2be06:487/",
+               "dc:title": "Image for Ubuntu Server 14.04 LTS [Ubuntu/14.04 LTS/KVM]",
+               "ad:group": "General group",
+               "hv:hypervisor": "KVM",
+               "hv:format": "OVA",
+               "hv:size": "398223360",
+               "hv:uri": "http://appliance-repo.egi.eu/images/base/UbuntuServer-14.04-x86_64-base/20141029/UbuntuServer-14.04-20141029.ova",
+               "hv:version": "20141029",
+               "sl:arch": "x86_64",
+               "sl:checksum:sha512": "5c597aff523b039ba4729e220063babcd783312a686f897f8a7d53fbd8bd8403348d5fac7f23a8f73e701296b3242b34b447d6fa331e2c587f12ae3c5e48295b",
+               "sl:comments": "",
+               "sl:os": "Linux",
+               "sl:osname": "Ubuntu",
+               "sl:osversion": "14.04 LTS",
+               "ad:user:fullname": "Fernandez Enol",
+               "ad:user:guid": "e85470d8-2af9-11e0-8c26-0014c23dfd8c",
+               "ad:user:uri": "https://appdb.egi.eu/store/person/enol.fernandez"
+            }
+         },
+         {
+            "hv:image": {
+               "dc:description": "New version of the COMPSs VM with PMES installation to be configured",
+               "dc:identifier": "c9753618-753f-510c-849b-c425ab4fa0c7",
+               "ad:mpuri": "https://appdb.egi.eu/store/vo/image/c9753618-753f-510c-849b-c425ab4fa0c7:491/",
+               "dc:title": "Image for COMPSs-PMES [Debian/7/KVM]",
+               "ad:group": "COMPSs images",
+               "hv:hypervisor": "KVM",
+               "hv:format": "ova",
+               "hv:core_minimum": "2",
+               "hv:size": "2132750848",
+               "hv:uri": "http://bscgrid05.bsc.es/~lezzi/COMPSs_PMES_Worker.ova",
+               "hv:version": "1.2",
+               "sl:arch": "x86_64",
+               "sl:checksum:sha512": "54cc7c3dc40739d180a09ece8e1456291fb175326e9ff25869f782c8104a711e412d59e87f0b0222084c35562175b0ce33c5d9c1cdb2c9b971a06bb772320c6e",
+               "sl:comments": "",
+               "sl:os": "Linux",
+               "sl:osname": "Debian",
+               "sl:osversion": "7",
+               "ad:user:fullname": "Lezzi Daniele",
+               "ad:user:guid": "e44f318a-aef0-4ca3-b33a-e088615f1c46",
+               "ad:user:uri": "https://appdb.egi.eu/store/person/daniele.lezzi"
+            }
+         },
+         {
+            "hv:image": {
+               "dc:description": "",
+               "dc:identifier": "e6905942-c2b8-579f-8718-4afe3d5cfdba",
+               "ad:mpuri": "https://appdb.egi.eu/store/vo/image/e6905942-c2b8-579f-8718-4afe3d5cfdba:490/",
+               "dc:title": "Image for COMPSs-PMES [Debian/7/KVM]",
+               "ad:group": "COMPSs images",
+               "hv:hypervisor": "KVM",
+               "hv:format": "ova",
+               "hv:size": "1682924544",
+               "hv:uri": "http://bscgrid05.bsc.es/~lezzi/COMPSs.ova",
+               "hv:version": "1.0",
+               "sl:arch": "x86_64",
+               "sl:checksum:sha512": "8ea50c95add7546aa707a246b4d80d511e0d52f6e859ab44f17f35c10f20da7c8ae1596b59048795dc5a76dca4f028e0f1e4a68cbb1036f9565656361e08021a",
+               "sl:comments": "The contextualization scripts have to be used to select the flavors",
+               "sl:os": "Linux",
+               "sl:osname": "Debian",
+               "sl:osversion": "7",
+               "ad:user:fullname": "Lezzi Daniele",
+               "ad:user:guid": "e44f318a-aef0-4ca3-b33a-e088615f1c46",
+               "ad:user:uri": "https://appdb.egi.eu/store/person/daniele.lezzi"
+            }
+         },
+         {
+            "hv:image": {
+               "dc:description": "",
+               "dc:identifier": "c9e0ceca-24e9-5ca5-80aa-2a36b6fbd67c",
+               "ad:mpuri": "https://appdb.egi.eu/store/vo/image/c9e0ceca-24e9-5ca5-80aa-2a36b6fbd67c:489/",
+               "dc:title": "Image for COMPSs-PMES [Debian/7/KVM]",
+               "ad:group": "COMPSs images",
+               "hv:hypervisor": "KVM",
+               "hv:format": "ova",
+               "hv:size": "2720517632",
+               "hv:uri": "http://bscgrid05.bsc.es/~lezzi/COMPSs_Updated_NewCloudInit.ova",
+               "hv:version": "1.3",
+               "sl:arch": "x86_64",
+               "sl:checksum:sha512": "e272971038b3bec7dfe73e776eb1a6b975ffe4981a19526ecb338bd9e48ea6f94b949f5c925952fb85542fef0d7b394b3fe523b3907bcb3d5696ef4a4285c316",
+               "sl:comments": "",
+               "sl:os": "Linux",
+               "sl:osname": "Debian",
+               "sl:osversion": "7",
+               "ad:user:fullname": "Lezzi Daniele",
+               "ad:user:guid": "e44f318a-aef0-4ca3-b33a-e088615f1c46",
+               "ad:user:uri": "https://appdb.egi.eu/store/person/daniele.lezzi"
+            }
+         },
+         {
+            "hv:image": {
+               "dc:description": "Basic image of the LOFAR use case",
+               "dc:identifier": "ac34bc96-4d78-583a-b73b-a9102aeec206",
+               "ad:mpuri": "https://appdb.egi.eu/store/vo/image/ac34bc96-4d78-583a-b73b-a9102aeec206:483/",
+               "dc:title": "Image for COMPSs_LOFAR [Debian/7/KVM]",
+               "ad:group": "General group",
+               "hv:hypervisor": "KVM",
+               "hv:format": "ova",
+               "hv:ram_minimum": "4",
+               "ad:ram_recommended": "8",
+               "hv:core_minimum": "2",
+               "hv:size": "8597261312",
+               "hv:uri": "http://bscgrid05.bsc.es/~lezzi/COMPSs_LOFAR.ova",
+               "hv:version": "1.0",
+               "sl:arch": "x86",
+               "sl:checksum:sha512": "95d5f5b74e7836f9cdaa0f2e3ee38f65e5260bc2c450803a5db26b1e8d374770fbf9ee6261da38fc6c2b701979846f3f38fc318ecebb35077fd229eb2c904dc6",
+               "sl:comments": "Needs at least 4GB of RAM",
+               "sl:os": "Linux",
+               "sl:osname": "Debian",
+               "sl:osversion": "7",
+               "ad:user:fullname": "Lezzi Daniele",
+               "ad:user:guid": "e44f318a-aef0-4ca3-b33a-e088615f1c46",
+               "ad:user:uri": "https://appdb.egi.eu/store/person/daniele.lezzi"
+            }
+         },
+         {
+            "hv:image": {
+               "dc:description": "",
+               "dc:identifier": "b93d7f71-ae03-5826-bb44-d9154ed28a91",
+               "ad:mpuri": "https://appdb.egi.eu/store/vo/image/b93d7f71-ae03-5826-bb44-d9154ed28a91:482/",
+               "dc:title": "Image for DCI-Bridge [Debian/7.0/KVM]",
+               "ad:group": "General group",
+               "hv:hypervisor": "KVM",
+               "hv:format": "OVA",
+               "hv:ram_minimum": "536870912",
+               "ad:ram_recommended": "1073741824",
+               "hv:core_minimum": "1",
+               "ad:core_recommended": "1",
+               "hv:size": "955164160",
+               "hv:uri": "http://public.s3.lpds.sztaki.hu/dcibridge-v6.ova",
+               "hv:version": "3.7.1.5",
+               "sl:arch": "x86_64",
+               "sl:checksum:sha512": "d6e19aebd07f65676fc506425f02963219276783ec56f053ed10f70b572ce52da3fffb87a82ad93d993e0d53af94fe97be37bd6d5694f9b03021e1fe306f0119",
+               "sl:comments": "",
+               "sl:os": "Linux",
+               "sl:osname": "Debian",
+               "sl:osversion": "7.0",
+               "ad:user:fullname": "Farkas Zoltan",
+               "ad:user:guid": "cd2e6ab1-00f4-4858-b5f7-828fbb1cc647",
+               "ad:user:uri": "https://appdb.egi.eu/store/person/zoltan.farkas"
+            }
+         },
+         {
+            "hv:image": {
+               "dc:description": "",
+               "dc:identifier": "46b0e78f-236f-5ae5-b04a-aa4297a033ce",
+               "ad:mpuri": "https://appdb.egi.eu/store/vo/image/46b0e78f-236f-5ae5-b04a-aa4297a033ce:537/",
+               "dc:title": "Image for MoinMoin wiki [Ubuntu/14.04/KVM]",
+               "ad:group": "General group",
+               "hv:hypervisor": "KVM",
+               "hv:format": "OVA",
+               "hv:size": "748154880",
+               "hv:uri": "http://appliance-repo.egi.eu/images/EGI-training/wiki-ubuntu.14.04.20150617.ova",
+               "hv:version": "20150617",
+               "sl:arch": "x86_64",
+               "sl:checksum:sha512": "4418f821811f1a458cec8df54e5619b3378db01d93d062e34508312ec3f7a07a64666414ec1c00aae7a4a56bdf6ffe49e1ba026f99897cae426065b67e00479e",
+               "sl:comments": "",
+               "sl:os": "Linux",
+               "sl:osname": "Ubuntu",
+               "sl:osversion": "14.04",
+               "ad:user:fullname": "Fernandez Enol",
+               "ad:user:guid": "e85470d8-2af9-11e0-8c26-0014c23dfd8c",
+               "ad:user:uri": "https://appdb.egi.eu/store/person/enol.fernandez"
+            }
+         }
+      ],
+      "hv:uri": "https://vmcaster.appdb.egi.eu/store/vo/fedcloud.egi.eu/image.list",
+      "hv:version": "20150618211400"
+   }
+}
+
+------9C254B99D8F2FFC5BCDAFFA5A0C01B27
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="smime.p7s"
+
+MIIHbQYJKoZIhvcNAQcCoIIHXjCCB1oCAQExCzAJBgUrDgMCGgUAMAsGCSqGSIb3
+DQEHAaCCBOQwggTgMIIDyKADAgECAgEjMA0GCSqGSIb3DQEBCwUAMEoxEzARBgoJ
+kiaJk/IsZAEZFgNPUkcxGDAWBgoJkiaJk/IsZAEZFghTRUUtR1JJRDEZMBcGA1UE
+AxMQU0VFLUdSSUQgQ0EgMjAxMzAeFw0xNDA3MTEwNzQ3MDFaFw0xNTA3MTEwNzQ3
+MDFaMG4xEjAQBgoJkiaJk/IsZAEZFgJFVTETMBEGCgmSJomT8ixkARkWA0VHSTEL
+MAkGA1UEBhMCTkwxDjAMBgNVBAoTBUhvc3RzMQ8wDQYDVQQKEwZFR0kuZXUxFTAT
+BgNVBAMTDGFwcGRiLmVnaS5ldTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBAN7WawAUAFAPO+lhysWzI+vmnqDxk7O3dXzppl9L+IN1nfPmbNcBSw4AbR2q
+VhENBDWn92skVduUiE1Do8d8ZJtGrrzeeloC5lHn4vkxScy5HSbrPec+aNECPTzi
+b8PTlP3hAxAVBwkTboPYJyc5ow7AXM+SZACQzaeM4UuFa/w0Sp52ojv87hUDDVd3
+YMCd9AtfsZi+PVzEZFl3pbJyQ3bdaCOYhC6zbgfVfUH4em0xOnVVgUfCLVn20k4W
+SHcvWTqOrL/lSU4jir6ex5j3zMmIYtzlFx9LaNBmBtIdMbZ+WFWP2vQMxjiCOfOM
+FPIM6cVUw7ub0zZYL8IYUhAawNcCAwEAAaOCAaswggGnMAwGA1UdEwEB/wQCMAAw
+DgYDVR0PAQH/BAQDAgSwMCcGA1UdJQQgMB4GCCsGAQUFBwMBBggrBgEFBQcDAgYI
+KwYBBQUHAwQwHQYDVR0OBBYEFO1BKNJtjUY5+HfkNsNEvUNdaVfyMHIGA1UdIwRr
+MGmAFLTbgExuumOjXH7fknD2mC0aHHCAoU6kTDBKMRMwEQYKCZImiZPyLGQBGRYD
+T1JHMRgwFgYKCZImiZPyLGQBGRYIU0VFLUdSSUQxGTAXBgNVBAMTEFNFRS1HUklE
+IENBIDIwMTOCAQAwFwYDVR0RBBAwDoIMYXBwZGIuZWdpLmV1MEQGA1UdHwQ9MDsw
+OaA3oDWGM2h0dHA6Ly9jcmwuaGVsbGFzZ3JpZC5nci9zZWVncmlkLWNhLTIwMTMv
+Y3JsLXYyLnBlbTBsBgNVHSAEZTBjMGEGDSsGAQQBgYEDFAIBAgQwUDBOBggrBgEF
+BQcCARZCaHR0cDovL3NlZS1ncmlkLWNhLmhlbGxhc2dyaWQuZ3IvYXNzZXRzL1NF
+RS1HUklELUNBLUNQLUNQUy0yLjQucGRmMA0GCSqGSIb3DQEBCwUAA4IBAQDhrV+D
+3mOtbTziSUQ8Doz3WnN7YggQxU9Wq6DP54hWEDVzSLRX5EGwcAmj0G2Bhigj2F/N
+ta70tz4TsrWjMeQGrV01TuPkR3sj3JOZJmHK4k/y1eNCEhEEAhH4e4F3oBzwgNIb
+J+1n1nq6bilplmz5Ktn46yVwfm51qXX592yP/wYoDeSm7XeHQa8yVZbsmXAiZxIM
+VJqmSp/OAAtIixcUNK2C3+xmWEaObCrheT3pkIix91mNJQtSfpi/VXz91Qr+9Fa6
+DG5K7sEj+21CcaMk4p2aR5ntGRSN0WdqhpTpZBvsmHvjd+23RRDztWdi9McttOwc
+DlWylveScIkIbfQwMYICUTCCAk0CAQEwTzBKMRMwEQYKCZImiZPyLGQBGRYDT1JH
+MRgwFgYKCZImiZPyLGQBGRYIU0VFLUdSSUQxGTAXBgNVBAMTEFNFRS1HUklEIENB
+IDIwMTMCASMwCQYFKw4DAhoFAKCB2DAYBgkqhkiG9w0BCQMxCwYJKoZIhvcNAQcB
+MBwGCSqGSIb3DQEJBTEPFw0xNTA2MTgyMTE0MDBaMCMGCSqGSIb3DQEJBDEWBBTt
+9EH0BsdImDFwfuj34fTFpk6xeTB5BgkqhkiG9w0BCQ8xbDBqMAsGCWCGSAFlAwQB
+KjALBglghkgBZQMEARYwCwYJYIZIAWUDBAECMAoGCCqGSIb3DQMHMA4GCCqGSIb3
+DQMCAgIAgDANBggqhkiG9w0DAgIBQDAHBgUrDgMCBzANBggqhkiG9w0DAgIBKDAN
+BgkqhkiG9w0BAQEFAASCAQAYYViq6gJUv9oqHli5NI3wj6nYpU0oimmsAYlzyxtE
+wGLPmUOlGlVksOztHC1dfr+y9LpPtPBBUjR/KPJ1PXltFPjRWNVasKx5J1bfFf6Y
+mXCbIbhzo5dHKgjZjSNdVdMdGHueYmHQsW2m9EDa+/Kladqt0MVEA4gs27+2Bphx
+9BBPNlOa/cs8R96kyATkdTwAdhgU6495TnyWBCFkDvzBV14FuBOyTSq/eTiEsZkl
+SR9pCUpoXwQoaMDPvplwAFv6aEldcIHGfz7xqba+NGN05wntJgjprbS8rNRp97eI
+CylcUge9MCTSrRkmyDBv8X2it4gZcQDPUGW0QfqR427d
+
+------9C254B99D8F2FFC5BCDAFFA5A0C01B27--
+

@@ -1,0 +1,8 @@
+# The following line is partially ignored by the test (harcoded cirros image)
+Ga0K1skI0vqEUChnLTNQDjr28x6
+
+# The following line is ignored by the test (duplicated image)
+Ga0K1skI0vqEUChnLTNQDjr28x6
+
+# The following line is ignored by the test (one image-per-line-rule)
+Ga0K1skI0vqEUChnLTNQDjr28x6 Ga0K1skI0vqEUChnLTNQDjr28x6
