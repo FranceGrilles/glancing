@@ -1,0 +1,209 @@
+{ 
+  "_:62d97f9e:148ec197b77:-7f93" : { 
+    "http://mp.stratuslab.eu/slreq#email" : [ { 
+      "type" : "literal" ,
+      "value" : "binet@lal.in2p3.fr"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slreq#issuer" : [ { 
+      "type" : "literal" ,
+      "value" : "CN=GRID2-FR,O=CNRS,C=FR"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slreq#subject" : [ { 
+      "type" : "literal" ,
+      "value" : "CN=Sebastien Binet,OU=LAL,O=CNRS,C=FR,O=GRID-FR"
+    }
+     ]
+  }
+   ,
+  "http://mp.stratuslab.eu/#ME4iRTemHRwhABKV5AgrkQfDerA" : { 
+    "http://purl.org/dc/terms/type" : [ { 
+      "type" : "literal" ,
+      "value" : "base"
+    }
+     ] ,
+    "http://purl.org/dc/terms/identifier" : [ { 
+      "type" : "literal" ,
+      "value" : "ME4iRTemHRwhABKV5AgrkQfDerA"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slreq#endorsement" : [ { 
+      "type" : "bnode" ,
+      "value" : "_:62d97f9e:148ec197b77:-7f94"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slterms#os" : [ { 
+      "type" : "literal" ,
+      "value" : "coreos"
+    }
+     ] ,
+    "http://purl.org/dc/terms/valid" : [ { 
+      "type" : "literal" ,
+      "value" : "2015-08-30T16:55:58Z"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slterms#disks-bus" : [ { 
+      "type" : "literal" ,
+      "value" : "ide"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slreq#checksum" : [ { 
+      "type" : "bnode" ,
+      "value" : "_:62d97f9e:148ec197b77:-7f97"
+    }
+    , { 
+      "type" : "bnode" ,
+      "value" : "_:62d97f9e:148ec197b77:-7f96"
+    }
+    , { 
+      "type" : "bnode" ,
+      "value" : "_:62d97f9e:148ec197b77:-7f95"
+    }
+    , { 
+      "type" : "bnode" ,
+      "value" : "_:62d97f9e:148ec197b77:-7f98"
+    }
+     ] ,
+    "http://purl.org/dc/terms/created" : [ { 
+      "type" : "literal" ,
+      "value" : "2015-03-05T16:55:58Z"
+    }
+     ] ,
+    "http://purl.org/dc/terms/creator" : [ { 
+      "type" : "literal" ,
+      "value" : "Sebastien Binet"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slterms#location" : [ { 
+      "type" : "literal" ,
+      "value" : "http://stable.release.core-os.net/amd64-usr/current/coreos_production_qemu_image.img.bz2"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slterms#kind" : [ { 
+      "type" : "literal" ,
+      "value" : "machine"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slterms#hypervisor" : [ { 
+      "type" : "literal" ,
+      "value" : "kvm"
+    }
+     ] ,
+    "http://purl.org/dc/terms/title" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://purl.org/dc/terms/format" : [ { 
+      "type" : "literal" ,
+      "value" : "raw"
+    }
+     ] ,
+    "http://purl.org/dc/terms/compression" : [ { 
+      "type" : "literal" ,
+      "value" : "bz2"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slreq#bytes" : [ { 
+      "type" : "literal" ,
+      "value" : "375390208"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slterms#os-version" : [ { 
+      "type" : "literal" ,
+      "value" : "stable"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slterms#os-arch" : [ { 
+      "type" : "literal" ,
+      "value" : "x86_64"
+    }
+     ] ,
+    "http://purl.org/dc/terms/publisher" : [ { 
+      "type" : "literal" ,
+      "value" : "StratusLab"
+    }
+     ] ,
+    "http://purl.org/dc/terms/alternative" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slterms#version" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://purl.org/dc/terms/description" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ]
+  }
+   ,
+  "_:62d97f9e:148ec197b77:-7f97" : { 
+    "http://mp.stratuslab.eu/slreq#value" : [ { 
+      "type" : "literal" ,
+      "value" : "c1388914de98747084004a579020ae441f0deac0"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slreq#algorithm" : [ { 
+      "type" : "literal" ,
+      "value" : "SHA-1"
+    }
+     ]
+  }
+   ,
+  "_:62d97f9e:148ec197b77:-7f96" : { 
+    "http://mp.stratuslab.eu/slreq#value" : [ { 
+      "type" : "literal" ,
+      "value" : "392e515899080770faee3460dc904c282ebfbcc440165313f567bccbe849f088"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slreq#algorithm" : [ { 
+      "type" : "literal" ,
+      "value" : "SHA-256"
+    }
+     ]
+  }
+   ,
+  "_:62d97f9e:148ec197b77:-7f95" : { 
+    "http://mp.stratuslab.eu/slreq#value" : [ { 
+      "type" : "literal" ,
+      "value" : "fbe07ccfaf8780257f30c73276523fe2470093d4094bad3bef8a3eef2c634374d38e47e5524495bf17166196aec258036bb4d063d04a7a59f935fc1f550a7669"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slreq#algorithm" : [ { 
+      "type" : "literal" ,
+      "value" : "SHA-512"
+    }
+     ]
+  }
+   ,
+  "_:62d97f9e:148ec197b77:-7f94" : { 
+    "http://purl.org/dc/terms/created" : [ { 
+      "type" : "literal" ,
+      "value" : "2015-03-05T17:05:02Z"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slreq#endorser" : [ { 
+      "type" : "bnode" ,
+      "value" : "_:62d97f9e:148ec197b77:-7f93"
+    }
+     ]
+  }
+   ,
+  "_:62d97f9e:148ec197b77:-7f98" : { 
+    "http://mp.stratuslab.eu/slreq#value" : [ { 
+      "type" : "literal" ,
+      "value" : "cd86bbf5db7e7d6ed637b63331fb29df"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slreq#algorithm" : [ { 
+      "type" : "literal" ,
+      "value" : "MD5"
+    }
+     ]
+  }
+}

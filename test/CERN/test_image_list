@@ -1,0 +1,39 @@
+{
+   "hv:imagelist" : {
+      "dc:date:created" : "2015-08-27T22:09:27Z",
+      "dc:date:expires" : "2016-08-28T00:00:00Z",
+      "dc:description" : "Endorsed list of IPHC Images",
+      "dc:identifier" : "00000000-0000-0000-0000-000000000000",
+      "dc:source" : "iphc.cnrs.fr",
+      "dc:title" : "CNRS Virtual Machines",
+      "hv:endorser" : {
+         "hv:x509" : {
+            "dc:creator" : "Anne Nonim",
+            "hv:ca" : "/DC=fr/DC=cnrs/CN=CNRS Untrusted Certification Authority",
+            "hv:dn" : "/DC=fr/DC=cnrs/OU=Organic Units/OU=Users/CN=nonim/CN=000000/CN=Anne Nonim",
+            "hv:email" : "anne.nonim@nullepart.fr"
+         }
+      },
+      "hv:images" : [
+         {
+            "hv:image" : {
+               "dc:description" : "This is a VM image",
+               "dc:identifier" : "deadbabe-f00d-beef-cafe-b1ab1ab1a666",
+               "dc:title" : "Small test VM image",
+               "hv:hypervisor" : "QEMU,KVM",
+               "hv:size" : 12506112,
+               "hv:uri" : "http://download.cirros-cloud.net/0.3.4/cirros-0.3.4-i386-disk.img",
+               "hv:version" : "6.6.6",
+               "sl:arch" : "i386",
+               "sl:checksum:sha512" : "a5335c92a40959b87be4ac6253d04ee790061bf4530d26ec8cca3eb30ad33bcfb8c52eb20c581b61a623acd6f6ed0d958261260e1fc5f21b6b22dbf626b82241",
+               "sl:checksum:md5" : "79b4436412283bb63c2cba4ac796bcd9",
+               "sl:comments" : "Batch Node",
+               "sl:os" : "Linux Cirros",
+               "sl:osversion" : "0.3.4"
+            }
+         }
+      ],
+      "hv:uri" : "https://not.at.iphc.cnrs.fr/images/image.list",
+      "hv:version" : "1"
+   }
+}

@@ -1,0 +1,209 @@
+{ 
+  "_:62d97f9e:148ec197b77:-7f9c" : { 
+    "http://mp.stratuslab.eu/slreq#algorithm" : [ { 
+      "type" : "literal" ,
+      "value" : "SHA-256"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slreq#value" : [ { 
+      "type" : "literal" ,
+      "value" : "5e3f8e8804d3aef7a9b84fe4232818d6ba0f5bda4d990805d925abde44f763b8"
+    }
+     ]
+  }
+   ,
+  "_:62d97f9e:148ec197b77:-7f99" : { 
+    "http://mp.stratuslab.eu/slreq#email" : [ { 
+      "type" : "literal" ,
+      "value" : "images@stratuslab.eu"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slreq#issuer" : [ { 
+      "type" : "literal" ,
+      "value" : "CN=StratusLab,OU=Testing Department,O=StratusLab Project,C=EU"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slreq#subject" : [ { 
+      "type" : "literal" ,
+      "value" : "CN=StratusLab,OU=Testing Department,O=StratusLab Project,C=EU"
+    }
+     ]
+  }
+   ,
+  "_:62d97f9e:148ec197b77:-7f9e" : { 
+    "http://mp.stratuslab.eu/slreq#algorithm" : [ { 
+      "type" : "literal" ,
+      "value" : "MD5"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slreq#value" : [ { 
+      "type" : "literal" ,
+      "value" : "3d1b4804dcf2a613f0ed4a91b9ed2b98"
+    }
+     ]
+  }
+   ,
+  "_:62d97f9e:148ec197b77:-7f9d" : { 
+    "http://mp.stratuslab.eu/slreq#algorithm" : [ { 
+      "type" : "literal" ,
+      "value" : "SHA-1"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slreq#value" : [ { 
+      "type" : "literal" ,
+      "value" : "1b5229d5dad92bc7952553be01608af2180eafbe"
+    }
+     ]
+  }
+   ,
+  "http://mp.stratuslab.eu/#BtSKdXa2SvHlSVTvgFgivIYDq--" : { 
+    "http://purl.org/dc/terms/type" : [ { 
+      "type" : "literal" ,
+      "value" : "base"
+    }
+     ] ,
+    "http://purl.org/dc/terms/identifier" : [ { 
+      "type" : "literal" ,
+      "value" : "BtSKdXa2SvHlSVTvgFgivIYDq--"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slreq#endorsement" : [ { 
+      "type" : "bnode" ,
+      "value" : "_:62d97f9e:148ec197b77:-7f9a"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slterms#os" : [ { 
+      "type" : "literal" ,
+      "value" : "ttylinux"
+    }
+     ] ,
+    "http://purl.org/dc/terms/valid" : [ { 
+      "type" : "literal" ,
+      "value" : "2015-08-09T12:32:27Z"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slterms#disks-bus" : [ { 
+      "type" : "literal" ,
+      "value" : "ide"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slreq#checksum" : [ { 
+      "type" : "bnode" ,
+      "value" : "_:62d97f9e:148ec197b77:-7f9c"
+    }
+    , { 
+      "type" : "bnode" ,
+      "value" : "_:62d97f9e:148ec197b77:-7f9e"
+    }
+    , { 
+      "type" : "bnode" ,
+      "value" : "_:62d97f9e:148ec197b77:-7f9d"
+    }
+    , { 
+      "type" : "bnode" ,
+      "value" : "_:62d97f9e:148ec197b77:-7f9b"
+    }
+     ] ,
+    "http://purl.org/dc/terms/created" : [ { 
+      "type" : "literal" ,
+      "value" : "2013-08-15T12:32:27Z"
+    }
+     ] ,
+    "http://purl.org/dc/terms/creator" : [ { 
+      "type" : "literal" ,
+      "value" : "StratusLab"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slterms#location" : [ { 
+      "type" : "literal" ,
+      "value" : "http://appliances.stratuslab.eu/images/base/ttylinux-16.1-x86_64-base/1.0/ttylinux-16.1-x86_64.img.gz"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slterms#kind" : [ { 
+      "type" : "literal" ,
+      "value" : "machine"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slterms#hypervisor" : [ { 
+      "type" : "literal" ,
+      "value" : "kvm"
+    }
+     ] ,
+    "http://purl.org/dc/terms/title" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://purl.org/dc/terms/format" : [ { 
+      "type" : "literal" ,
+      "value" : "raw"
+    }
+     ] ,
+    "http://purl.org/dc/terms/compression" : [ { 
+      "type" : "literal" ,
+      "value" : "gz"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slreq#bytes" : [ { 
+      "type" : "literal" ,
+      "value" : "102400000"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slterms#os-version" : [ { 
+      "type" : "literal" ,
+      "value" : "16.1"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slterms#os-arch" : [ { 
+      "type" : "literal" ,
+      "value" : "x86_64"
+    }
+     ] ,
+    "http://purl.org/dc/terms/alternative" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://purl.org/dc/terms/publisher" : [ { 
+      "type" : "literal" ,
+      "value" : "StratusLab"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slterms#version" : [ { 
+      "type" : "literal" ,
+      "value" : "1.0"
+    }
+     ] ,
+    "http://purl.org/dc/terms/description" : [ { 
+      "type" : "literal" ,
+      "value" : "ttylinux v16.1 base image automatically created by StratusLab. Uses the standard StratusLab contextualization mechanisms."
+    }
+     ]
+  }
+   ,
+  "_:62d97f9e:148ec197b77:-7f9b" : { 
+    "http://mp.stratuslab.eu/slreq#value" : [ { 
+      "type" : "literal" ,
+      "value" : "79556bc3a25e4555a6cd71afba8eae80eb6d5f23f16a84e6017a54469034cf77ee7bcd74ac285c6ec42c25547b6963c1e7232d4fcca388a326f0ec3e7afb838e"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slreq#algorithm" : [ { 
+      "type" : "literal" ,
+      "value" : "SHA-512"
+    }
+     ]
+  }
+   ,
+  "_:62d97f9e:148ec197b77:-7f9a" : { 
+    "http://purl.org/dc/terms/created" : [ { 
+      "type" : "literal" ,
+      "value" : "2014-09-07T08:36:48Z"
+    }
+     ] ,
+    "http://mp.stratuslab.eu/slreq#endorser" : [ { 
+      "type" : "bnode" ,
+      "value" : "_:62d97f9e:148ec197b77:-7f99"
+    }
+     ]
+  }
+}

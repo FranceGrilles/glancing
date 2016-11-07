@@ -1,0 +1,17 @@
+*.pyc
+cover
+.coverage
+.tox
+Glancing.egg-info
+
+test/data/*
+test/images/*
+
+test/stratuslab/JcqGhHxmTRAEpHMmRF-xhSTM3TO.xml
+test/stratuslab/PIDt94ySjKEHKKvWrYijsZtclxU.xml
+test/stratuslab/Buh-tYElvOEvst1HDyTq_6v-1si.xml
+
+test/stratuslab/JcqGhHxmTRAEpHMmRF-xhSTM3TO.json
+test/stratuslab/PIDt94ySjKEHKKvWrYijsZtclxU.json
+test/stratuslab/Buh-tYElvOEvst1HDyTq_6v-1si.json
+
